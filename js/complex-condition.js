@@ -37,12 +37,49 @@
 // )
 
 
-let userinput = prompt("Enter your age")
-let age = +userinput;
-console.log(age)
-if (age >= 18 && age <= 80){
-    alert("tumi bot dite parba")
+// let userinput = prompt("Enter your age")
+// let age = +userinput;
+// console.log(age)
+// if (age >= 18 && age <= 80){
+//     alert("tumi bot dite parba")
+// }
+// else(
+//     alert("tumi bot dite parba na")
+// )
+
+
+let day = prompt("Enter a day");
+let convert = day.toLowerCase();
+
+switch(convert){
+    case "sunday":{
+        alert("It`s a sunny day")
+        break;
+    }
+    case "tuesday":{
+        alert("The day is middle of a week")
+        break;
+    }
+    case "wednesday":{
+        alert("Weekend is near")
+        break;
+    }
+    case "thursday":{
+        alert("To day is 2nd last day of a week")
+        break;
+    }
+    case "friday":{
+        alert("Finally we are in weekend")
+        break;
+    }
+    case "seturday":{
+        alert("It`s first day of a week")
+        break;
+    }
+    default:{
+        alert("You are out of network")
+        break;
+    } 
+
 }
-else(
-    alert("tumi bot dite parba na")
-)
+
