@@ -22,3 +22,16 @@
 // let bdHeroes = ["sakib", "Sharukh"]
 // let heroes = mervelHeroes.concat(dcHeroes, bdHeroes);
 // console.log(heroes)
+
+// add a item on first of array
+// let marvelHeroes = ["thor", "spiderman", "ironman"];
+// let val = marvelHeroes.unshift("antman");
+// console.log(marvelHeroes);
+
+
+//delet the first item 
+// let marvelHeroes = ["thor", "spiderman", "ironman"];
+// let val = marvelHeroes.shift();
+// console.log("deleted itme", val);
+// console.log(marvelHeroes);
+
