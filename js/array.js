@@ -39,18 +39,18 @@
 // const myArray = new Array("Chicken", "mutton", "patoato", "Carrot");
 // console.log(myArray.length);
 
-const mern2403 = ["Nur", "Saimun", "Shakibul", "Shohel", "Nafis", "Rubel", "Ismail", "Hridoy", "Srk", "Anushka", "Aylin" , "Lawrance", "Gahangir", "Imran", "Rabbi" ]
+// const mern2403 = ["Nur", "Saimun", "Shakibul", "Shohel", "Nafis", "Rubel", "Ismail", "Hridoy", "Srk", "Anushka", "Aylin" , "Lawrance", "Gahangir", "Imran", "Rabbi" ]
 
-let number = prompt("Enter a index number :");
+// let number = prompt("Enter a index number :");
 
-if(+number >= mern2403.length){
-    alert(`Index range 0 to ${mern2403.length}`)
-}else{
-    const confrimResult = confirm("Here is Your OutPut : " + mern2403[+number])
-    if(confrimResult){
-        window.location.reload()
-    }
-}
+// if(+number >= mern2403.length){
+//     alert(`Index range 0 to ${mern2403.length}`)
+// }else{
+//     const confrimResult = confirm("Here is Your OutPut : " + mern2403[+number])
+//     if(confrimResult){
+//         window.location.reload()
+//     }
+// }
 
 // for(let i = 0; i<mern2403.length; i++){
 
@@ -61,3 +61,25 @@ if(+number >= mern2403.length){
 //         console.log("Mr. " + mern2403[i]);
 //     }  
 // }
+
+
+// add more item
+// let foodItems = ["potato", "apple", "litchi", "tomato"];
+// foodItems.push("chips", "burger", "paneer", "mengo");
+// console.log(foodItems);
+
+
+// delete last item
+// let foodItems = ["potato", "apple", "litchi", "tomato"];
+// let deletedItem = foodItems.pop();
+// console.log(foodItems);
+// console.log("Deleted", deletedItem);
+
+// array to string convart
+// let foodItems = ["potato", "apple", "litchi", "tomato"];
+// console.log(foodItems);
+// console.log(foodItems.toString());
+// console.log(foodItems);
+
+
+
