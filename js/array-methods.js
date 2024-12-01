@@ -48,3 +48,23 @@
 // marvelHeroes.splice(2 , 0, "Krish");
 // console.log(marvelHeroes);
 
+
+//<--------------index number retarn kore/ item na thakle -1 retarn kore (indexOf)--------------->
+// let marvelHeroes = ["thor", "spiderman", "ironman", "antman", "Dr. Dtrang"];
+// console.log(marvelHeroes.indexOf("antman")); 
+
+
+//<---------------item ache kina ta check kore (includes)-------------->
+// let marvelHeroes = ["thor", "spiderman", "ironman", "antman", "Dr. Dtrang"];
+// console.log(marvelHeroes.includes("spiderman"));
+
+
+//<--------------value majkhane kicu add kore (join separator)--------------->
+// let marvelHeroes = ["thor", "spiderman", "ironman", "antman", "Dr. Dtrang"];
+// console.log(marvelHeroes.join(" and "))
+
+
+//<--------------value ke ulte dei (recerse)--------------->
+// let marvelHeroes = ["thor", "spiderman", "ironman", "antman", "Dr. Dtrang"];
+// console.log(marvelHeroes.reverse())
+
