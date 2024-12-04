@@ -7,11 +7,11 @@
 //     i++;
 // }
 
-let sumTotal = 0;
- for(let x = 1; x <= 100; x++){
-     console.log(`${sumTotal} + ${x} = ${sumTotal + x}`)
-     sumTotal = sumTotal + x;
- }
+// let sumTotal = 0;
+//  for(let x = 1; x <= 100; x++){
+//      console.log(`${sumTotal} + ${x} = ${sumTotal + x}`)
+//      sumTotal = sumTotal + x;
+//  }
 
 // const hello = document.getElementById("hello")
 // let userinput = prompt("Enter a number");
@@ -23,3 +23,54 @@ let sumTotal = 0;
 //         hello.innerHTML += `${+userinput} x ${x} = ${+userinput * x} <br/>`;
 //     }
 // }
+
+
+// for (let i = 1; i <= 10; i++){
+//     console.log(i);
+// }
+//----------for loop-------------
+// for(let i = 1; i <= 10; i++){
+//     console.log("count =",i );
+// }
+
+//-----------while loop------------
+// let i = 1;
+// while (i <= 5) {
+//     console.log(i);
+//     i++
+// }
+
+//-------------do while loop---------------
+// let i = 1;
+// do {
+//     console.log(i);
+//     i++
+    
+// } while (i <= 10);
+
+//--------------for of loop--------------------\
+// let rifat = "rifat";
+// for (let i of rifat) {
+//     console.log(i); 
+// }
+
+//--------------for in loop--------------------\
+// let studant = {
+//     name : "Saimun",
+//     age : 19,
+//     ispass : true
+// }
+// for(let i in studant){
+//     console.log(i , studant[i]);
+    
+// }
+
+//--------------prectice task--------------------\
+let gameNumver = 14;
+let userinput = prompt("Guess the game number : ")
+
+while (userinput != gameNumver) {
+    userinput = prompt("You entered wrong number, Guess  again : ")
+}
+
+alert("Congratulations, You entered the right number")
