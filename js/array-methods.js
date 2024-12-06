@@ -68,3 +68,24 @@
 // let marvelHeroes = ["thor", "spiderman", "ironman", "antman", "Dr. Dtrang"];
 // console.log(marvelHeroes.reverse())
 
+
+// const fruits = ["Apple", "Orange", "Apple", "Mango"];
+// let position = fruits.indexOf("Apple") +1;
+// console.log(position);
+
+// const fruits = ["Apple", "Orange", "Apple", "Mango"];
+// let position = fruits.lastIndexOf("Apple");
+// console.log(position);
+
+
+// const fruits = ["Apple", "Orange", "Apple", "Mango"];
+// let position = fruits.includes("Apple");
+// console.log(position);
+
+const numbers = [4, 9, 16, 25, 29];
+let first = numbers.find(myFunction);
+
+function myFunction(params) {
+    
+}
+
