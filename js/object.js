@@ -127,10 +127,18 @@ class srk {
     saySomething = function (){
         console.log(`Name : ${this.name} collage : ${this.collage} district : ${this.district} thana : ${this.thana} familyMemer : ${this.familyMember} maritual Status : ${this.maritualStatus}`);
     }
+    set setGFName (name){
+        this.gf = name;
+    }
+
+    get showgfName (){
+        return this.gf
+    }
 }
 
 const srkObj = new srk("subroto kumar barman", "Dhaka collage", "Rangpur", "pirjang", 4, "UnMarried")
 console.log(srkObj);
 
 const SakibObj = new srk("Sakibul", "Dhaka collage", "Rangpur", "pirjang", 4, "UnMarried")
-console.log(SakibObj);
+SakibObj.setGFName = "opu bissas";
+console.log(SakibObj.showgfName);
