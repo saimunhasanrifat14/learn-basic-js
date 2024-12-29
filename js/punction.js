@@ -91,13 +91,51 @@
 // document.getElementById("result").innerHTML += modulus(Unum1, Unum2, Unum3);
 
 // annomoyous function
-const anno = function(a){
-    alert("Hi " + a)
-}
-anno("Mern 2403")
+// const anno = function(a){
+//     alert("Hi " + a)
+// }
+// anno("Mern 2403")
 
 //arrow function
-const array = a => {
-    alert("Hi " + a)
-}
-array("mern 2403")
+// const array = a => {
+//     alert("Hi " + a)
+// }
+// array("mern 2403")
+
+// const sum = function(a, b){
+//     result = a + b;
+// }
+// sum(23,43)
+// console.log(result);
+
+// const method = {
+//         sum : function(a , b){
+//             return a + b;
+//         }
+// }
+
+// const method = {
+//     sum : function(a , b){
+//         return a + b;
+//     }
+// }
+
+// const greet = name => {
+//     const result = "Hi " + name;
+//     return result;
+// }
+// console.log(greet("Mern 2403"));
+
+
+// function create (){
+
+// }
+
+// const create = () => {
+
+// }
+
+// const create = function(){
+
+// }
+
