@@ -82,10 +82,39 @@
 // let position = fruits.includes("Apple");
 // console.log(position);
 
-const numbers = [4, 9, 16, 25, 29];
-let first = numbers.find(myFunction);
+// const numbers = [4, 9, 16, 25, 29];
+// let first = numbers.find(myFunction);
 
-function myFunction(params) {
+// function myFunction(params) {
     
-}
+// }
 
+// Original Array অ্যাক্সেস করা
+// const numbers = ["sakib", "tanbir", "abid", "srk"];
+// numbers.forEach((numbers, index, array) => {
+//     console.log(`
+//          IndexOf: ${index}
+//          Item: ${numbers} 
+//          Full array: ${array}`);
+// })
+
+
+// Object Array-এর সাথে কাজ করা
+// const info = [
+//     {name : (a) => {a + 5}, age : 19},
+//     {name : "Saimun", age : 23},
+//     {name : 12, age : 42},
+// ]
+// info.forEach((info) => {
+//     console.log(info.age);
+// })
+
+const numbers = [1, 2, 3, 4];
+
+// forEach
+const resultForEach = numbers.forEach((num) => num * 2);
+console.log(resultForEach); // Output: undefined
+
+// map
+const resultMap = numbers.map((num) => num * 2);
+console.log(resultMap); // Output: [2, 4, 6, 8]
