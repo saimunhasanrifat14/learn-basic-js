@@ -109,12 +109,34 @@
 //     console.log(info.age);
 // })
 
-const numbers = [1, 2, 3, 4];
+// const numbers = [1, 2, 3, 4];
 
 // forEach
-const resultForEach = numbers.forEach((num) => num * 2);
-console.log(resultForEach); // Output: undefined
+// const resultForEach = numbers.forEach((num) => num * 2);
+// console.log(resultForEach); // Output: undefined
 
 // map
-const resultMap = numbers.map((num) => num * 2);
-console.log(resultMap); // Output: [2, 4, 6, 8]
+// const resultMap = numbers.map((num) => num * 2);
+// console.log(resultMap); // Output: [2, 4, 6, 8]
+
+// reduce
+// const numbers = [1, 2, 3, 4,43, 43, 56, 24, 21];
+// const sum = numbers.reduce((acc, num) => acc + num, 0);
+// console.log(sum);
+
+//every
+// const numbers = [2, 4, 6, 8];
+// const allEven = numbers.every((number) => number % 2 === 0);
+// console.log(allEven); // output true
+
+// const numbers = [2, 4, 6, 7];
+// const allEven = numbers.every((number) => number % 2 === 0);
+// console.log(allEven); // output folse
+
+// sort
+// const numbers = [3, 1, 4, 2];
+// numbers.sort((a, b) => a - b); // Ascending order
+// console.log(numbers);
+// const names = ["sakib", 'rifat', "tanbir", "abid"]
+// console.log(names.sort());
+
