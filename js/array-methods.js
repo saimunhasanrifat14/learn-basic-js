@@ -1,3 +1,9 @@
+//<-------------- pund index number --------------->
+let items = ["item1", "item2", "item3", "item4"]
+console.log(items.indexOf("item1"));
+console.log(items.indexOf("item10"));
+
+
 //<-------------- add more item --------------->
 // let foodItems = ["potato", "apple", "litchi", "tomato"];
 // foodItems.push("chips", "burger", "paneer", "mengo");
