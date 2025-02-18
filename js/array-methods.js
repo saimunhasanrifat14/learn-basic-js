@@ -1,7 +1,21 @@
+// let items = ["item1", "item2", "item3", "item4"]
+// console.log(items.slice(2,4));
+
+
+
+// let items = ["item1", "item2", "item3", "item4"]
+// let items2 = ["item1", "item2", "item3", "item4"]
+// console.log(items.concat(items2));
+
+
+// let items = ["item1", "item2", "item3", "item4"]
+// console.log(items.join("*"));
+
+
 //<-------------- pund index number --------------->
-let items = ["item1", "item2", "item3", "item4"]
-console.log(items.indexOf("item1"));
-console.log(items.indexOf("item10"));
+// let items = ["item1", "item2", "item3", "item4"]
+// console.log(items.indexOf("item1"));
+// console.log(items.indexOf("item10"));
 
 
 //<-------------- add more item --------------->
