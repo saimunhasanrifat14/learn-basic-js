@@ -1,6 +1,28 @@
 //loop --> forloop, while loop, dowhile loop, for of, for in
 //loop with callbeck funciton --> map , foreach , entries, same
 
+// const numbers = [12,42,23, 53,64,25]
+// for(const num of numbers){
+    //     console.log(num);
+    // }
+
+    
+// for loop 
+// for(let x = 1; x <= 100; x++){
+//     console.log("looooping");  
+// }
+
+// while loop 
+// let x = 1;
+// while(x <= 5){
+//     console.log("loooping", x);
+//     x++;
+// }
+
+// for (let x = 0; x < 100; x++) {
+// console.log(x);
+// }
+
 // let i = 0;
 // while (i < 50) {
 //     console.log(i);
@@ -66,11 +88,11 @@
 // }
 
 //--------------prectice task--------------------\
-let gameNumver = 14;
-let userinput = prompt("Guess the game number : ")
+// let gameNumver = 14;
+// let userinput = prompt("Guess the game number : ")
 
-while (userinput != gameNumver) {
-    userinput = prompt("You entered wrong number, Guess  again : ")
-}
+// while (userinput != gameNumver) {
+//     userinput = prompt("You entered wrong number, Guess  again : ")
+// }
 
-alert("Congratulations, You entered the right number")
+// alert("Congratulations, You entered the right number")
