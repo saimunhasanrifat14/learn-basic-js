@@ -21,7 +21,6 @@
 // }
 // myFirstFunction();
 
-
 // function gretting(name, surname = "") {
 //     if(name === "Aylin") {
 //         const addingname = `Welcome to your mern stack journey miss ${name} ${surname}`;
@@ -32,15 +31,13 @@
 //     }
 // }
 
-
 // let allName = ["Lawrance", "Rubel", "Aylin", "nur", "Nafis", "Shohel",
 //     "Tanjil", "Gahangir", "Saimun", "Imran", "sk", "Hridoy", "Taufik"
 // ]
 
 // for(let name of allName){
-//     gretting(name) 
-// }  
-
+//     gretting(name)
+// }
 
 // function sum(number1, number2){
 //      const sumResult = number1 + number2;
@@ -54,7 +51,6 @@
 // for(let i = 0 ; i < allFunArr.length; i++){
 //     console.log(allFunArr[i](Unum1, Unum2, Unum3));
 // }
-
 
 // function sum(number1 = 0, number2 = 0, number3 = 0){
 //     return `your sum result is ${number1 + number2 + number3}`;
@@ -126,7 +122,6 @@
 // }
 // console.log(greet("Mern 2403"));
 
-
 // function create (){
 
 // }
@@ -138,4 +133,46 @@
 // const create = function(){
 
 // }
+
+// function sumResult (num1, num2){
+//     let result = num1 + num2;
+//     console.log(result);
+// }
+
+// sumResult(43 , 44)
+
+
+// let myfunction = (string) => {
+//   let count = 0;
+//   for (const chare of string) {
+//     if (chare === "a" || chare === "e" || chare ===  "i" || chare ===  "o" || chare ===  "u") {
+//       count++;
+//     }
+//   }
+//   console.log(count);
+// };
+// myfunction("aaaa");
+
+
+// let myarray = [3, 5,22 , 64, 34];
+
+// myarray.forEach((eachNum) => {
+    //     console.log(eachNum * eachNum);
+    // });
+
+
+// let myarray = [3, 5,22 , 64, 34];
+// let newarray = myarray.filter((eachnumber)=>{
+    //     return eachnumber % 2 === 0;
+    // })
+    // console.log(newarray);
+    
+// let myarray = [3, 5,22 , 64, 34];
+// let newarray = myarray.reduce((prev , current)=>{
+//     let sum = prev + current
+//     let index = myarray.length;
+//     return sum / index;
+    
+// })
+// console.log(newarray);
 
